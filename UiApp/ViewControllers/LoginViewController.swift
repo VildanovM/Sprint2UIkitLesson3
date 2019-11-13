@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
         setImageView()
         setSignInButton()
         setSignUpButton()
+        [signUpButton, signInButton, imageView].forEach { view.addSubview($0)}
     }
     
     override func viewWillAppear(_ animated: Bool) {

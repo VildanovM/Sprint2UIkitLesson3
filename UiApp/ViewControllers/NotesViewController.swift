@@ -91,19 +91,13 @@ class NotesViewController: UIViewController {
     }
 }
 
-
-
-extension NotesViewController: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        _ = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCell.reuseId, for: indexPath) as! MyCollectionViewCell
-        
-    }
-}
-
-extension NotesViewController: UICollectionViewDataSource {
+extension NotesViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return boards.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -112,6 +106,4 @@ extension NotesViewController: UICollectionViewDataSource {
         cell.parentVC = self
         return cell
     }
-    
-    
 }

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FEB49531-2EDA-4861-9322-9E7AABBDFCED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E077B405-A2A3-46FC-A547-31B116369C14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UiApp/ViewControllers/MyCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "MyCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E077B405-A2A3-46FC-A547-31B116369C14 - d896f6ac0487410d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UiApp.MyCollectionViewCell.selectedIndex.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "UiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimvildanov/Desktop/sberCourseRepository/Sprint2UIkitLesson3/UiApp/ViewControllers/MyCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "E077B405-A2A3-46FC-A547-31B116369C14 - 23217f3e21656d11"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UiApp.MyCollectionViewCell.selectedIndex.setter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "UiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimvildanov/Desktop/sberCourseRepository/Sprint2UIkitLesson3/UiApp/ViewControllers/MyCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "E077B405-A2A3-46FC-A547-31B116369C14 - 80852ce49f35d400"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UiApp.MyCollectionViewCell.selectedIndex.modify : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "UiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimvildanov/Desktop/sberCourseRepository/Sprint2UIkitLesson3/UiApp/ViewControllers/MyCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E077B405-A2A3-46FC-A547-31B116369C14 - 13e05e5a50dc708b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UiApp.MyCollectionViewCell.selectedIndex.modify : Swift.Optional&lt;Swift.Int&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimvildanov/Desktop/sberCourseRepository/Sprint2UIkitLesson3/UiApp/ViewControllers/MyCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
