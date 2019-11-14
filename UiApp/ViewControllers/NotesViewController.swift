@@ -49,8 +49,6 @@ class NotesViewController: UIViewController {
         collectionView.dataSource = self
         updateCollectionViewItem(with: view.bounds.size)
         
-        let createNoteButton = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(notesButtonPressed))
-        self.navigationController?.navigationBar.topItem?.leftBarButtonItem = createNoteButton
         let addButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addListTapped(_:)))
         self.navigationController?.navigationBar.topItem?.rightBarButtonItem = addButtonItem
         
@@ -76,11 +74,7 @@ class NotesViewController: UIViewController {
         alertController.addAction(UIAlertAction(title: "Отменить", style: .cancel, handler: nil))
         present(alertController, animated: true)
     }
-    
-    @objc private func notesButtonPressed() {
-        navigationController?.pushViewController(CreateNoteViewController(), animated: true)
-    }
-    
+
     init() {
         super.init(nibName: nil, bundle: nil)
         self.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "notes"), tag: 1)

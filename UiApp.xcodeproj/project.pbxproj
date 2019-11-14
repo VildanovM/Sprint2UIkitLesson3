@@ -18,7 +18,6 @@
 		950DBD9F2374CFAF00E6B6EF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DBD9E2374CFAF00E6B6EF /* SignUpViewController.swift */; };
 		950DBDA12374E2A300E6B6EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DBDA02374E2A300E6B6EF /* SettingsViewController.swift */; };
 		950DBDA32374E2C800E6B6EF /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DBDA22374E2C800E6B6EF /* NotesViewController.swift */; };
-		950DBDA723760A8300E6B6EF /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DBDA623760A8300E6B6EF /* CreateNoteViewController.swift */; };
 		950DBDAB23760F8700E6B6EF /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DBDAA23760F8700E6B6EF /* Singleton.swift */; };
 		977F55B6237ADDA00089EFEC /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F55B5237ADDA00089EFEC /* Board.swift */; };
 		977F55B8237ADDDC0089EFEC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F55B7237ADDDC0089EFEC /* MyCollectionViewCell.swift */; };
@@ -39,7 +38,6 @@
 		950DBD9E2374CFAF00E6B6EF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		950DBDA02374E2A300E6B6EF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		950DBDA22374E2C800E6B6EF /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
-		950DBDA623760A8300E6B6EF /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
 		950DBDAA23760F8700E6B6EF /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		977F55B5237ADDA00089EFEC /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		977F55B7237ADDDC0089EFEC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				977F55B7237ADDDC0089EFEC /* MyCollectionViewCell.swift */,
 				977F55B9237ADE420089EFEC /* MyTableViewCell.swift */,
 				977F55B5237ADDA00089EFEC /* Board.swift */,
-				950DBDA623760A8300E6B6EF /* CreateNoteViewController.swift */,
 				950DBDA02374E2A300E6B6EF /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
@@ -186,7 +183,6 @@
 				950DBDAB23760F8700E6B6EF /* Singleton.swift in Sources */,
 				950DBD852374B03D00E6B6EF /* AppDelegate.swift in Sources */,
 				950DBD9B2374B1AD00E6B6EF /* MainViewController.swift in Sources */,
-				950DBDA723760A8300E6B6EF /* CreateNoteViewController.swift in Sources */,
 				977F55B8237ADDDC0089EFEC /* MyCollectionViewCell.swift in Sources */,
 				950DBDA12374E2A300E6B6EF /* SettingsViewController.swift in Sources */,
 			);
